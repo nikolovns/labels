@@ -1,0 +1,16 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "semi": false,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^(pages|public|routes|external-routes|roles)/?(.*)$",
+    "^~/(.*)$",
+    "^(assets|components|providers|theme|utils|hooks)/(.*)$",
+    "^../(.*)$",
+    "^[./]"
+  ]
+}
